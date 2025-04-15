@@ -10,7 +10,7 @@ def analyze_image_transactions(image_path):
     returns a structured table of transaction details with added information.
     """
 
-    genai.configure(api_key="AIzaSyD5GC5HIz3NgDW-8FVpdx7uZ71JqWC8hi4")
+    genai.configure(api_key="")
     model = genai.GenerativeModel('gemini-2.0-flash')
 
     try:
